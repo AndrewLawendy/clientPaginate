@@ -37,7 +37,7 @@ The reason this option has its own section that it has many special attributes t
 | `opt-value`  | Optional  | Attribute  | Valid only with `<option>` as it takes a text -already done by  `init-value`-and then it needs a value, so this attributes contains the field from which the option will take the value. **Ex:** <option `init-value='text'` `opt-value='value'` ></option> |
 | `repeat-fn`  | Optional  | Attribute  | Pass the field data through a function and return a new one value to repeat from. **Ex:** You need to replace “_“ into a regular space for displaying purpose. <span `repeat-fn="newVal.replace('_', ':')`"></span> **newVal** is the keyword to use. |
 | `conversion-fn`  | Optional  | Attribute  | While updating the one hidden field before you might need to convert the data into something else. **Ex:** <span `conversion-fn='item.attr('test')+newVal.replace(':', '_')'`></span> And it takes the actual **item** and its value as **newVal** keyword. |
-| `checkbox-val`  | Optional  | Attribute  | It takes a string to show of values to assign the checkbox in case of checked or in unchecked. **Ex:** <input type=”checkbox” checkbox-val=”1,0” /> Now in case of checked the checkbox will take 1 as a value, and 0 in case of unchecked.|
+| `checkbox-val`  | Optional  | Attribute  | It takes a string to show of values to assign the checkbox in case of checked or in unchecked. **Ex:** `<input type=”checkbox” checkbox-val=”1,0” />` Now in case of checked the checkbox will take 1 as a value, and 0 in case of unchecked.|
 
 ---
 
