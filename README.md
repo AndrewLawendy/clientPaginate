@@ -16,9 +16,10 @@ This plugin aims to repeat a JSON array into an html template on the client side
 | `allData`  | String  | allData  | In case of form submission all data will be added to one hidden field as a JSON object, so you can choose that field name in order to catch it on the back end side.  |
 | `callback`  | function  | function(){}  | A callback function to be executed after each action that includes repeating (loading, filtering,…). |
 
+---
 ## data:
 In order to display a server side validation, it’s enough to add an `invalid` field in the object having a string of comma separated invalid fields after server validation.
----
+
 Ex: [
 {id:1,name:title},
 {id:null,name:title,invalid:”id”},
@@ -28,6 +29,7 @@ Ex: [
 ---
 ## htmlTemplate:
 The reason this option has its own section that it has many special attributes to guide the repeater function.
+
 | Option  | Required  | Type  | Description  |
 |---|---|---|---|
 | `{$index}`  | Optional  | Anywhere (Attribute, class, id, text,..etc)  | It can be added anywhere to reuse the item index.  |
