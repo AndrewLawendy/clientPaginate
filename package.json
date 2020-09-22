@@ -1,0 +1,28 @@
+{
+  "name": "client-paginate",
+  "version": "1.0.0",
+  "description": "This plugin aims to repeat a JSON array into an html template on the client side and adds pagination options as well.",
+  "main": "src/clientPaginate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewLawendy/clientPaginate.git"
+  },
+  "author": "Andrew Lawendy",
+  "keywords": [
+    "jquery pagination",
+    "client pagination",
+    "templating",
+    "json pagination"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndrewLawendy/clientPaginate/issues"
+  },
+  "homepage": "https://github.com/AndrewLawendy/clientPaginate#readme",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}

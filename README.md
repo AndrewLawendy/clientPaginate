@@ -1,6 +1,13 @@
 # clientPaginate
 This plugin aims to repeat a JSON array into an html template on the client side and adds pagination options as well.
 
+![GitHub](https://img.shields.io/github/license/AndrewLawendy/client-paginate)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/AndrewLawendy/client-paginate)
+![npm](https://img.shields.io/npm/dw/client-paginate)
+![GitHub file size in bytes](https://img.shields.io/github/size/AndrewLawendy/client-paginate/src/clientPaginate.js)
+
+[![NPM](https://nodei.co/npm/client-paginate.png?downloads=true)](https://nodei.co/npm/client-paginate/)
+
 | Option  | Type  | Default  | Description  |
 |---|---|---|---|
 | `paginate`  | Boolean  | true  | Whether to only repeat or to add pagination options as well. |
@@ -44,8 +51,7 @@ The reason this option has its own section that it has many special attributes t
 **Example:**
 
     $('div').clientPaginate({
-        data:[{id:1,name:title},{id:2,name:title}],
+        data:[{ id: 1, name: "Title 1" },{id: 2, name: "Title 2" }],
         htmlTemplate: “<div class='container'><span  init-value='id'></span><span init-value='name'></span></div>“,
         objectTemplate:{id:'',name:''},
-        validation:[[id],”This important section”]
     });
