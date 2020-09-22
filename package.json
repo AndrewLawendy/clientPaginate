@@ -1,6 +1,6 @@
 {
   "name": "client-paginate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This plugin aims to repeat a JSON array into an html template on the client side and adds pagination options as well.",
   "main": "src/clientPaginate.js",
   "scripts": {
