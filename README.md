@@ -1,10 +1,10 @@
 # clientPaginate
 This plugin aims to repeat a JSON array into an html template on the client side and adds pagination options as well.
 
-![GitHub](https://img.shields.io/github/license/AndrewLawendy/client-paginate)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/AndrewLawendy/client-paginate)
+![GitHub](https://img.shields.io/github/license/AndrewLawendy/clientPaginate)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/AndrewLawendy/clientPaginate)
 ![npm](https://img.shields.io/npm/dw/client-paginate)
-![GitHub file size in bytes](https://img.shields.io/github/size/AndrewLawendy/client-paginate/src/clientPaginate.js)
+![GitHub file size in bytes](https://img.shields.io/github/size/AndrewLawendy/clientPaginate/src/clientPaginate.js)
 
 [![NPM](https://nodei.co/npm/client-paginate.png?downloads=true)](https://nodei.co/npm/client-paginate/)
 
